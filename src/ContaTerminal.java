@@ -13,12 +13,16 @@ public class ContaTerminal {
         String nomeCliente;
 
         System.out.println("Bem Vindo ao seu novo Banco ;)");
+
         System.out.println("Permita-nos te conhecer, nos informe seu nome:");
         nomeCliente = scanner.nextLine();
+        
         System.out.println("Por favor, digite o nome da sua Agencia:");
         agencia = scanner.nextLine();
+
         System.out.println("Agora por gentileza, digite seu numero de Agencia:");
         numero = scanner.nextInt();
+
         System.out.println("Qual o seu saldo?");
         saldo = scanner.nextDouble();
 
